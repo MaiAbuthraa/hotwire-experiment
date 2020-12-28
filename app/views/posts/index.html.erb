@@ -1,6 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<%= render 'form', post: @post %>
+<%= turbo_frame_tag "post_form" do %>
+  <%= render 'form', post: @post %>
+<% end %>
 
 <h1>Posts (<%= rand(100..999)%>)</h1>
 
