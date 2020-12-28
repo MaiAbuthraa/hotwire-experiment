@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+#notice {
+  padding: 0.5rem;
+  background: #eee
+}
+
+b {
+  display: block;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+label {
+  width: 4rem;
+  display: inline-block;
+}
+
+turbo-frame {
+  border: 1px solid red;
+  padding: 0.5rem 2rem;
+  display: block;
+}
